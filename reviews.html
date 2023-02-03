@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>REVIEWS</title>
+
+<style>
+	.container {
+  border: 2px solid #ccc;
+  background-color: black;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+</style>
+
+</head>
+<body>
+
+	<h2>REVIEWS</h2>
+
+		<div class="container">
+		  <img src="images/aida.jpeg" alt="Avatar" style="width:50px">
+		  <p style="color: white; "><span>Aida Syafiqah</span> Customer 1</p>
+		  <p style="color: white;">I love the coffee! Taste so gooddd.</p>
+		</div>
+
+		<div class="container">
+		  <img src="images/fara.jpeg" alt="Avatar" style="width:50px">
+		  <p style="color: white;"><span>Fara Wahida</span> Customer 2</p>
+		  <p style="color: white;">The environment makes me feel calm and I could spend my whole day at the cafe! The foods are amazing.</p>
+		</div>
+
+		<div class="container">
+		  <img src="images/hana.png" alt="Avatar" style="width:50px">
+		  <p style="color: white;"><span>Hana Naurah</span> Customer 3</p>
+		  <p style="color: white;">It's such a kid-friendly cafe! I love when there are menus provided for kids.</p>
+		</div>
+
+</body>
+</html>
